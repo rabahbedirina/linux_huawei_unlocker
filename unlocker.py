@@ -49,8 +49,8 @@ def intro():
 	print("\t\tE220, E353")
 	print("\tAttempting to unlock these devices with this software is not")
 	print("\trecommended. I hope to fix this in a later release.")
-	print(80 * "*"
-) if not _requireYes():
+	print(80 * "*") 
+	if not _requireYes():
 		print("Bye")
 		exit(0)
 
